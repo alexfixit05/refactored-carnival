@@ -34,7 +34,7 @@ gallery = tk.Button(window,
 def noteopen():
     window3= Toplevel(window)
     window3.geometry("470x250")
-    textbox = tk.Label(window3, background="#ebc3d9", text="To my Valentine <3\n \n.Since we've met I've been the happiest I could ever be,\n I cherish every second with you and hope to spend forever by your side.\n I often wish you could see what I see, that you're an amazing friend,\n a good person and the best boyfriend I could ever ask for.\n I've never met someone like you before, with so much care, thoughtfulness \n and love. I think about how we met and how unlikely it was for us to ever\n cross paths and yet we met and sometimes I think was it meant to be,\n our relationship is something I only thought I could ever dream of.\n I'm so in love with you, when you're with me I'm the happiest I can be \n (even when being woken up), and when you're gone I miss you \n and I think of you all the time. I love you so much and I wish to spend \n the rest of my life with you, getting to experience all things big and small next to you \n Happy Valentine's Day babe <3 ")
+    textbox = tk.Label(window3, background="#ebc3d9", text="To my Valentine <3\n \nSince we've met I've been the happiest I could ever be,\n I cherish every second with you and hope to spend forever by your side.\n I often wish you could see what I see, that you're an amazing friend,\n a good person and the best boyfriend I could ever ask for.\n I've never met someone like you before, with so much care, thoughtfulness \n and love. I think about how we met and how unlikely it was for us to ever\n cross paths and yet we met and sometimes I think was it meant to be,\n our relationship is something I only thought I could ever dream of.\n I'm so in love with you, when you're with me I'm the happiest I can be \n (even when being woken up), and when you're gone I miss you \n and I think of you all the time. I love you so much and I wish to spend \n the rest of my life with you, getting to experience all things big and small next to you \n Happy Valentine's Day babe <3 ")
     textbox.grid(row=0,column=0)
     
  
@@ -53,7 +53,7 @@ def wishopen():
     photo5= tk.Label(window2, image=img5, background="#e5aee8")
 
     img6=PhotoImage(file="photo6.png")
-    photo6= tk.Label(window2, image=img5, background="#e5aee8")
+    photo6= tk.Label(window2, image=img6, background="#e5aee8")
 
     img7=PhotoImage(file="photo7.png")
     photo7= tk.Label(window2, image=img7, background="#e5aee8")
