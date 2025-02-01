@@ -1,4 +1,6 @@
 import sys
+import pip
+
 import tkinter as tk
 from tkinter import *
 from tkinter import PhotoImage
